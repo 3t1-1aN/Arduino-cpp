@@ -43,6 +43,7 @@ void loop() {
   Serial.print("Distance: ");
   Serial.println(distance);
   
+  //sets onboard LED on or off based on given distance
   if (distance >= 30){
     digitalWrite(LED_BUILTIN, HIGH);
   } else {
