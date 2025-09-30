@@ -40,6 +40,6 @@ void loop() {
   distance = duration * 0.034 / 2;
   
   if (distance >= 3){
-    Serial.print("STOP!")
+    Serial.print("STOP!");
   }
 }
